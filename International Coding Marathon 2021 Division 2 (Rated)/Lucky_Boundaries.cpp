@@ -2,6 +2,7 @@
 #define ll          long long
 #define ld          long double
 #define mod         (1000000000+7)
+#define INF         (1000000000+7)
 #define INT_MAX     (1e18)
 #define ull         unsigned long long
 #define pb          push_back
@@ -10,10 +11,19 @@
 #define all(a)      (a).begin(),(a).end()
 #define F           first
 #define S           second
-#define mp          make_pair
 #define sz(x)       (ll int)x.size()
 #define SIZE(X)     ((int)((X).size()))
-#define repf(i,a,b) for(int i=(a);i<=(b);++i)#define Fast        ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(0);
+#define hell        1000000007
+#define lbnd        lower_bound
+#define ubnd        upper_bound
+#define bs          binary_search
+#define mp          make_pair
+#define fo(i,s,n)   for(int i=s;i<n;i++)
+#define FORE(i,s,n) for(int i=s;i<=n;i++)
+#define rep(i,n)    for(int i=0;i<(n);++i)
+#define repf(i,a,b) for(int i=(a);i<=(b);++i)
+#define ERASE(x)    x.erase(unique(x.begin(),x.end()),x.end()) //removes repeated element;
+#define Fast        ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(0);
 
 using namespace std;
 const int N = 1000010;
